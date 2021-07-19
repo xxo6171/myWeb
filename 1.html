@@ -10,13 +10,14 @@
       background-size : 100% 100%;
     }
     #frame{
+      border-radius: 2em;
       margin : auto;
-      padding-top : 5px;
+      padding-top : 12px;
       width : 1000px;
       align : center;
-      background-color: rgba( 210, 229, 217, 0.5 );
+      background-color: rgba(228, 225, 229, 0.3 );
     }
-    #profile, #education, #gradution, #interest{
+    #profile, #education, #gradution, #interest, #portfolio{
       margin : auto;
       align : left;
       margin-left : 10px;
@@ -35,8 +36,11 @@
       margin-left: 32px;
     }
     .button{
-      background-color: gray;
+      border-radius: 2em;
+      border : 1px solid;
+      background-color: rgba(255, 255, 255, 0.7 );
       font-size : 20px;
+      font-weight : bold;
       margin-left: 800px;
       margin-top: -30px;
       width : 150px;
@@ -48,7 +52,6 @@
   </style>
   <script>
     function next(){
-      alert("다음으로 넘어갑니다.");
       location.href= "2.html"
     }
   </script>
@@ -61,7 +64,7 @@
       <img src="image/kyungmin.jpg" alt="Trulli" width="200" height="200">
       <input type="button" onclick= "next();" class = "button" value="Next Page">
       <br>
-      <font size= 5><strong>LEE KYUNGMIN</strong></font>
+      <font size= 5><strong>LEE KYUNG MIN</strong></font>
       <p>
         Hello, my name is kyungmin lee. I'm 25 years old,
         and i live in siheung.<br>I'm a student at Yonsei University's Mirae Campus,
@@ -117,10 +120,10 @@
     </div>
     <div id = "photo">
         <div class= "box">
-          <img src="image/lounge_system.png" alt="Trulli" width="160" height="160">
+          <img src="image/lounge_system.png" alt="Trulli" width="160" height="160" >
         </div>
         <div class= "box">
-          <img src="image/aulogo5.png" alt="Trulli" width="160" height="160">
+          <img src="image/aulogo5.png" alt="Trulli" width="160" height="160" >
         </div>
         <div class= "box">
           <img src="image/login.jpg" alt="Trulli" width="160" height="160">
