@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>WEB1 -html</title>
+  <style>
+    #background{
+      margin : auto;
+      background-image : 	url('image/background2.png');
+      background-size : 100% 100%;
+    }
+    #frame{
+      margin : auto;
+      padding-top : 5px;
+      width : 1000px;
+      align : center;
+      background-color: rgba( 210, 229, 217, 0.5 );
+    }
+    #profile, #education, #gradution, #interest{
+      margin : auto;
+      align : left;
+      margin-left : 10px;
+    }
+    #photo{
+      margin : auto;
+      width: 1000px;
+      height : 200px;
+    }
+    .box{
+      width: 160px;
+			height : 160px;
+			float : left;
+      background : white;
+      margin-top : 14px;
+      margin-left: 32px;
+    }
+    .button{
+      background-color: gray;
+      font-size : 20px;
+      margin-left: 800px;
+      margin-top: -30px;
+      width : 150px;
+      height : 40px;
+    }
+    ul{
+      list-style-type : square
+    }
+  </style>
+  <script>
+    function next(){
+      alert("다음으로 넘어갑니다.");
+      location.href= "2.html"
+    }
+  </script>
+</head>
+<body>
+  <div id = "background">
+  <h1 align= center><font size= 10 color= white>Welcome, My Profile!</font></h1><br>
+  <div id = "frame">
+    <div id = "profile">
+      <img src="image/kyungmin.jpg" alt="Trulli" width="200" height="200">
+      <input type="button" onclick= "next();" class = "button" value="Next Page">
+      <br>
+      <font size= 5><strong>LEE KYUNGMIN</strong></font>
+      <p>
+        Hello, my name is kyungmin lee. I'm 25 years old,
+        and i live in siheung.<br>I'm a student at Yonsei University's Mirae Campus,
+        and<br> I'm currently in the department of information and Communication Engineering.
+      </p>
+      <br>
+    </div>
+    <div id = "education">
+      <h2>EDUCATION:</h2>
+      <ul>
+        <li>
+          <font size=5>2016 ~ 2020</font>
+        <br>
+          <strong>Ansan University Computer Infomation Department(Associate's Degree)</strong>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <font size=5>2021 ~ </font><br><strong>Yonsei University Mirae Campus Department of Computer Information
+          and Communication Engineering Department of Information and Communication(Bachelor of Engineering degree expected in)</strong>
+        </li>
+          <br>
+        </ul>
+    </div>
+    <br>
+    <div id = "interest">
+      <h2>INTEREST DEPARTMENTS:</h2>
+      <ul>
+        <li>
+          <font size=4>Mobile Programming(JAVA)</font>
+        </li>
+        <li>
+          <font size=4>PHP Programming</font>
+        </li>
+        <li>
+          <font size=4>JSP Programming</font>
+        </li>
+      </ul>
+    </div>
+    <br>
+    <div id = "gradution">
+        <h2>GRADUATION PROJECT(Ansan University):</h2>
+        <ul>
+          <li>
+            <font size=5>Ansan University Lounge Real-Time Reservation System</font>
+            <ul>
+              <li>Android Studio Java based production</li>
+              <li>Ansan University practice server provided to build DB server</li>
+              <li>Linking between mobile and Datebase using php</li>
+            </ul>
+          </li>
+        </ul>
+    </div>
+    <div id = "photo">
+        <div class= "box">
+          <img src="image/lounge_system.png" alt="Trulli" width="160" height="160">
+        </div>
+        <div class= "box">
+          <img src="image/aulogo5.png" alt="Trulli" width="160" height="160">
+        </div>
+        <div class= "box">
+          <img src="image/login.jpg" alt="Trulli" width="160" height="160">
+        </div>
+        <div class= "box">
+          <img src="image/main.jpg" alt="Trulli" width="160" height="160">
+        </div>
+        <div class= "box">
+          <img src="image/reserve.jpg" alt="Trulli" width="160" height="160">
+        </div>
+    </div>
+    <div>
+        <ul>
+            <ul>
+              <li>
+                Ansan University Graduation Art Competition Grand Prize (November 2020)
+              </li>
+              <li>
+                Ansan University Capstone Design Contest Mobile Category Grand Prize (February 2021)
+              </li>
+            </ul>
+        </ul>
+    </div>
+    <br>
+    <div id= "portfolio">
+      <h2>PORTFOLIO:</h2>
+        <ul>
+          <li><font size=5><a href="https://blog.naver.com/kyung971114">My blog link</a></font></li>
+          <br>
+          <li><font size=5><a href="https://github.com/xxo6171/work-1">My github link</a></font></li>
+        </ul>
+    </div>
+  </div>
+</div>
+  </body>
+  </html>
